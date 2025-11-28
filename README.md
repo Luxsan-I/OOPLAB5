@@ -51,6 +51,16 @@ getAt(int index)
 - In worst case, have to traverse the list from head to the node at that specified index
 - Results in O(n), with n being length of the list
 
+contains(T data)
+- Time complexity: O(n)
+- Loops through nodes one by one until it finds the data
+- Worst case is if the data is not in the list, requiring a full traversal of the list, resulting in O(n), with n being length of the list
+
+indexOf(T data)
+- Time complexity: O(n)
+- Similar to contains() method
+- Traverses the list and keeps an index counter, worst case traversal is O(n)
+
   
 
 

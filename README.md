@@ -23,8 +23,9 @@ yuzhelin@my.yorku.ca
 
 
 ### 2. Discuss complexity analysis results
-A. MyDoublyLinkedList
-addFirst(T data) -- Time complexity: O(1)
+#### MyDoublyLinkedList
+addFirst(T data) 
+- Time complexity: O(1)
 - Only creates a new node and updates head, tail, and pointers
 - No traversal of the linked list is required, resulting in constant time
 

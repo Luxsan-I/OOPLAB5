@@ -69,7 +69,7 @@ indexOf(T data)
 
 
 ### 3. Demonstrate working implementations
-
+We showed how doubly linked list do insertions and deletions by adding and removing values at different indices. Then we removed nodes and confirmed that the link worked properly. We also verified that search methods such as contains and indexOf returned accurate results as the structure changed. For the binary search tree we inserted values and oberved how each one what placed in the correct subtree. We also made sure it handles deletion properly. Finally we ran the traversal method to make sure everything worked out well.
 
 
 ### 4. Reflect on learning outcomes

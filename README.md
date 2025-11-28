@@ -23,7 +23,7 @@ yuzhelin@my.yorku.ca
 
 
 ### 2. Discuss complexity analysis results
-#### MyDoublyLinkedList
+#### <u>MyDoublyLinkedList</u>
 addFirst(T data) 
 - Time complexity: O(1)
 - Only creates a new node and updates head, tail, and adjacent pointers

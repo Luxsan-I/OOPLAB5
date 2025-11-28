@@ -26,7 +26,7 @@ yuzhelin@my.yorku.ca
 
 
 
-###3 . Demonstrate working implementations
+### 3. Demonstrate working implementations
 
 
 

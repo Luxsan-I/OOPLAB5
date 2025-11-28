@@ -18,16 +18,16 @@ Yuzhe Lin,
 yuzhelin@my.yorku.ca
 
 ## Reflection Questions
-###1. Explain design choices and trade-offs
+### 1. Explain design choices and trade-offs
 
 
 
-###2. Discuss complexity analysis results
+### 2. Discuss complexity analysis results
 
 
 
-###3. Demonstrate working implementations
+###3 . Demonstrate working implementations
 
 
 
-###4. Reflect on learning outcomes
+### 4. Reflect on learning outcomes

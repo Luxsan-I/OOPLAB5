@@ -33,6 +33,26 @@ addLast(T data)
 - Time complexity: O(1)
 - Similar to addFirst, but instead if updates the tail reference
 
+insertAt(int index, T data)
+- Time complexity: O(n)
+- In worst case, the whole list has to traversed to reached the desired index, resulting in O(n), with n being the length of the list
+- Also need to update .next and .prev once the correct node is found, O(1) for both operations
+
+getFirst()
+- Time complexity: O(1)
+- Returns head data directly, no traversal required, resulting in O(1)
+
+getLast()
+- Time complexity: O(1)
+- Returns tail data directly, no traversal required, resulting in O(1)
+
+getAt(int index)
+- Time complexity: O(n)
+- In worst case, have to traverse the list from head to the node at that specified index
+- Results in O(n), with n being length of the list
+
+  
+
 
 ### 3. Demonstrate working implementations
 

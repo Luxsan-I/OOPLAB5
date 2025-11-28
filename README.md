@@ -19,7 +19,11 @@ yuzhelin@my.yorku.ca
 
 ## Reflection Questions
 ### 1. Explain design choices and trade-offs
+For the Doubly Linked List, a major design choice was maintaining references to both the head and tail, as well as the size variable. This allows operations like adding at the head or tail to be constant time, which significantly improves efficiency instead of traversing the list every time. For the insertAt method, a traversal-based approach was used to reach the target index, ensuring flexibility and it has a linear time cost in the worst case.
 
+The main trade off in the design revolves around effiency versus simplcity. Keeping the head and tail references and a size variable adds extra memory, but it significantly improves performance for operations, especially at the ends of the list — which is a worthy trade off. Traversal based operations like insertAt or getAt, are simple to implement and maintain but can be slower for large lists.
+
+This design shows the benefits and also the limitations of a doubly linked list — it has fast insertions and deletions at both ends, flexible access to elements, but a linear time traversal is required to access indexes, in the worst case, those indexes can be at the end or middle of the list.
 
 
 ### 2. Discuss complexity analysis results

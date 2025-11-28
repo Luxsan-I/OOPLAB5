@@ -26,9 +26,12 @@ yuzhelin@my.yorku.ca
 #### MyDoublyLinkedList
 addFirst(T data) 
 - Time complexity: O(1)
-- Only creates a new node and updates head, tail, and pointers
+- Only creates a new node and updates head, tail, and adjacent pointers
 - No traversal of the linked list is required, resulting in constant time
 
+addLast(T data)
+- Time complexity: O(1)
+- Similar to addFirst, but instead if updates the tail reference
 
 
 ### 3. Demonstrate working implementations

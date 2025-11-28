@@ -178,6 +178,7 @@ public class MyDoublyLinkedList <T> {
         return size;
     }
 
+    //Extra helper functions
     private T unlink(Node<T> n) {
         Node<T> prev = n.prev;
         Node<T> next = n.next;
